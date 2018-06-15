@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+html,
+body {
+    background: #2f3c4efa;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    color: #f3f7fe;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    //margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    background: radial-gradient(#2555c1, black 130%);
+    -webkit-background: radial-gradient(#2555c1, black 130%);
+    -moz-background: radial-gradient(#2555c1, black 130%);
+    -o-background: radial-gradient(#2555c1, black 130%);
+    box-shadow: 0 0 25px 3px rgba(0, 0, 0, 0.25);
+    z-index: 1050;
+}
+
+.header-image {
+    width: auto;
+    height: 300px;
+    background-image: url('../images/james_inv.jpg');
+    background-position: right;
+    background-size: cover;
+    background-color: #4b9cefb3;
+    background-blend-mode: multiply;
+    //overflow-x: hidden;
+    color: transparent;
+    font-size: 3em;
+    line-height: 1em;
+    /* box-shadow: inset 4px 4px 22px 5px rgba(0, 160, 255, 0.2), inset -4px -4px 22px 5px rgba(0, 160, 255, 0.2); */
+    position: relative;
+}
+
+.header-image::before {
+    content: '';
+    height: 5%;
+    width: 80%;
+    background: transparent;
+    position: absolute;
+    bottom: 3.6%;
+    left: 0.5%;
+    transform: rotate(-3deg);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.35);
+    z-index: -1;
+}
+
+.header-image::after {
+    content: '';
+    height: 5%;
+    width: 80%;
+    background: transparent;
+    position: absolute;
+    bottom: 3.6%;
+    right: 0.5%;
+    transform: rotate(3deg);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.35);
+    z-index: -1;
+}
+
+.header-image p {
+    display: block;
+    margin-top: 10%;
+    margin-right: 3%;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.10em;
+    line-height: 1.2em;
+    text-align: right;
+    text-shadow: 0px 2px 4px rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+h4 {
+    margin-bottom: 2em;
+}
+
+hr {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    right: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #7fa6ff;
+}
+
+.modp {
+    color: black;
+    text-shadow: 0 0 0;
+}
+
+.location {
+    background: linear-gradient( #a4ffff, #70ffff 42%);
+    background-clip: text;
+    text-fill-color: transparent;
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.insta {
+    background: linear-gradient(to bottom right, #b33e74, #f7a4a4 60%);
+    background-clip: text;
+    text-fill-color: transparent;
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.hh {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.app {
+    color: green;
+}
+
+// Green
+
+/*  background: radial-gradient(#2f3fff, black 130%);
+    -webkit-background: radial-gradient(#2f3fff, black 130%);
+    -moz-background: radial-gradient(#2f3fff, black 130%);
+    -o-background: radial-gradient(#2f3fff, black 130%); */
+
+//blue_light
+
+/* background: radial-gradient(#30c394, black 130%);
+    -webkit-background: radial-gradient(#30c394, black 130%);
+    -moz-background: radial-gradient(#30c394, black 130%);
+    -o-background: radial-gradient(#30c394, black 130%);*/
+
+//blue_dark
+
+/*  background: radial-gradient(#2555c1, black 130%);
+    -webkit-background: radial-gradient(#2555c1, black 130%);
+    -moz-background: radial-gradient(#2555c1, black 130%);
+    -o-background: radial-gradient(#2555c1, black 130%); */
+
+
+/*
+    Blend options:
+
+    rgba(o, 160, 255, 0.2);
+
+    rgba(0, 255, 255, 0.2);
+
+    */
+
+
+/*
+font color, page:
+
+new:
+
+color: #d0ddeff0;
+
+old:
+
+color: #bcd3f1;
+
+*/
+
+
+/* 
+Body background old:
+
+background: radial-gradient(circle, #3e2b52, #2d383cfa 60%);
+
+*/
+
+
+/*
+
+gradient back for the text:
+
+new_:
+
+background: linear-gradient( #a4ffff, #70ffff 42%);
+
+old_:
+
+background: linear-gradient( #690e0e, #ff0202 42%);
+
+*/
